@@ -21,4 +21,5 @@ redis-cli --cluster add-node 127.0.0.1:7006 127.0.0.1:7003 --cluster-slave
 echo "Redis cluster setup is complete."
 
 # Keep the script running in the foreground
+touch /dev/null
 tail -f /dev/null
